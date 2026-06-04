@@ -195,43 +195,6 @@ export default function HtmlLastPublishedSunJan052025075152Gmt0000CoordinatedUni
                 </div>
               </div>
               <motion.div
-                className="absolute bg-[rgba(115,102,254,0.25)] bottom-0 content-stretch flex flex-col h-[64px] items-end justify-center left-[128px] rounded-bl-[12px] rounded-tl-[12px] w-[418px]"
-                data-node-id="1:14"
-                data-name="Overlay"
-                initial={{ scaleX: 0 }}
-                animate={{ scaleX: 1 }}
-                transition={{
-                  duration: 2.5,
-                  ease: "easeOut",
-                }}
-                style={{ originX: 0 }}
-              >
-                <div
-                  className="bg-[#7366fe] flex-[1_0_0] min-h-px relative rounded-bl-[8px] rounded-br-[8px] w-[4px]"
-                  data-node-id="1:15"
-                  data-name="Background"
-                >
-                  <div
-                    className="absolute bg-[#7366fe] content-stretch flex flex-col items-start left-0 px-[8px] py-[2px] rounded-br-[8px] rounded-tl-[8px] rounded-tr-[8px] top-[-28px]"
-                    data-node-id="1:16"
-                    data-name="Background"
-                  >
-                    <div
-                      className="content-stretch flex flex-col items-center relative shrink-0"
-                      data-node-id="1:17"
-                      data-name="Container"
-                    >
-                      <div
-                        className="[word-break:break-word] flex flex-col font-['GT_America_Standard:Medium'] justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-center text-white whitespace-nowrap"
-                        data-node-id="1:18"
-                      >
-                        <p className="leading-[24px]">Pulse</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-              <motion.div
                 className="content-stretch flex flex-col items-center justify-center relative shrink-0 z-20 mt-4"
                 data-node-id="1:19"
                 data-name="Heading 1"
@@ -242,7 +205,47 @@ export default function HtmlLastPublishedSunJan052025075152Gmt0000CoordinatedUni
                     data-node-id="1:20"
                   >
                     <p className="leading-[64px]">
-                      for consumer brands.
+                      for{" "}
+                      <span className="relative inline-block px-2">
+                        <span className="relative z-10 text-[#333]">consumer brands.</span>
+                        <motion.div
+                          className="absolute bg-[rgba(115,102,254,0.25)] inset-y-0 left-0 right-0 content-stretch flex flex-col items-end justify-center rounded-bl-[12px] rounded-tl-[12px] z-0"
+                          data-node-id="1:14"
+                          data-name="Overlay"
+                          initial={{ scaleX: 0 }}
+                          animate={{ scaleX: 1 }}
+                          transition={{
+                            duration: 2.5,
+                            ease: "easeOut",
+                          }}
+                          style={{ originX: 0 }}
+                        >
+                          <div
+                            className="bg-[#7366fe] flex-[1_0_0] min-h-px relative rounded-bl-[8px] rounded-br-[8px] w-[4px]"
+                            data-node-id="1:15"
+                            data-name="Background"
+                          >
+                            <div
+                              className="absolute bg-[#7366fe] content-stretch flex flex-col items-start left-0 px-[8px] py-[2px] rounded-br-[8px] rounded-tl-[8px] rounded-tr-[8px] top-[-28px]"
+                              data-node-id="1:16"
+                              data-name="Background"
+                            >
+                              <div
+                                className="content-stretch flex flex-col items-center relative shrink-0"
+                                data-node-id="1:17"
+                                data-name="Container"
+                              >
+                                <div
+                                  className="[word-break:break-word] flex flex-col font-['GT_America_Standard:Medium'] justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-center text-white whitespace-nowrap"
+                                  data-node-id="1:18"
+                                >
+                                  <p className="leading-[24px]">Pulse</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </motion.div>
+                      </span>
                     </p>
                   </div>
                 </div>
