@@ -202,8 +202,7 @@ export default function HtmlLastPublishedSunJan052025075152Gmt0000CoordinatedUni
                 animate={{ scaleX: 1 }}
                 transition={{
                   duration: 2.5,
-                  repeat: Infinity,
-                  repeatDelay: 0.5,
+                  ease: "easeOut",
                 }}
                 style={{ originX: 0 }}
               >
